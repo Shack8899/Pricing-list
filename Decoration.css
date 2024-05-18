@@ -5,6 +5,8 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	font-family: Arial, sans-serif;
 }
 
 .Buttons {
@@ -21,6 +23,7 @@ body{
     height: 80px;
 
     align-content: left;
+    cursor: grab;
 }
 
 .button1 button{
@@ -28,20 +31,10 @@ body{
 	font-size: 50px;
 	padding: 25px 50px;
 
-	cursor: pointer;
 
 }
 
 #Brand {
-
-	font-size: 30px;
-
-	width: 360px;
-	height: 50px;
-
-}
-
-#Type {
 
 	font-size: 30px;
 
@@ -68,8 +61,29 @@ body{
 
 	list-style-type: none;
 
-	margin: 10px;
+	margin: 30px;
 	padding: 10px;
+
+	font-size: 30px;
+}
+
+.Selections li {
+
+	margin: 10px;
+	margin-left: 25%;
+	padding: 0px;
+    text-align: left;
+}
+
+.Selections input {
+
+	width: 30px;
+	height: 30px;
+
+	position: relative;	
+	vertical-align: center;	
+
+		
 }
 
 .Quality {
@@ -77,7 +91,7 @@ body{
 	border: 1px solid black;
   	padding-right: 0px;
   	padding-left: 0px;
-  	width: 150px;
+  	width: 300px;
   	border-radius: 5px;
 }
 
@@ -86,6 +100,26 @@ body{
 	border: 1px solid black;
   	padding-right: 0px;
   	padding-left: 0px;
-  	width: 150px;
+  	width: 300px;
   	border-radius: 5px;
+
+  	list-style-type: none;
+}
+
+.Submit {
+
+	width: 180px;
+    height: 80px;
+
+    align-content: left;
+
+	background-color: #66BB6A;
+	cursor: grab;
+}
+
+.Submit button {
+
+	font-size: 50px;
+	padding: 25px 50px;
+
 }
